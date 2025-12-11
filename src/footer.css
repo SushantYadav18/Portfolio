@@ -1,0 +1,42 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+
+.Footer-Links-Social{
+    display:flex;
+}
+.Footer-Links-Social a{
+    color:#fff;
+    margin:0 15px;
+    font-size:20px;
+    transition: color 0.3s;
+}
+.Footer-Links-Social a:hover{
+    color:#0077ff;
+}
+.Social-All{
+
+    margin-left:400px;
+   text-align:center;
+}
+.Links-All{
+    text-align:center;
+    margin-left:100px;
+}
+
+
+.Footer-Links{
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
