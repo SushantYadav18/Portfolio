@@ -1,48 +1,75 @@
 import React from 'react';
 import './AboutMe.css';
- function AboutMe() {
+
+function AboutMe() {
     return (
-        <div className="about-me-container">
-            <h1>About Me</h1>
-            
-            <section className="intro">
-                <h2>Hello, I'm Sushant Yadav</h2>
-                <p>Welcome to my portfolio! I'm from Rautathat and passionate about creating amazing web experiences.</p>
-            </section>
+        <section className="about-section">
+            <div className="about-container">
+                <div className="left">
+                    <img src="/profileMain.png" alt="Sushant" className="photo" />
+                </div>
 
-            <section className="background">
-                <h3>Background</h3>
-                <p>
-                    I am a dedicated Frontend Developer with hands-on experience building responsive and modern web applications.<br />
-                     My core skills include HTML, CSS, JavaScript, React, and UI/UX fundamentals. <br />
-                     I enjoy transforming designs into clean, functional interfaces and optimizing websites for performance, accessibility, <br />and mobile responsiveness.<br />
-                      I’m a fast learner, a team player, and always excited to explore new frontend technologies<br /> to create impactful digital experiences.<br />
-                </p>
-            </section>
+                <div className="right">
+                    <h1>About Me</h1>
 
-            <section className="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>JavaScript & React</li>
-                    <li>Web Development</li>
-                    <li>UI/UX Design</li>
-                    <li>Problem Solving</li>
-                </ul>
-            </section>
+                    <div className="intro">
+                        <h2>Hi, I'm Sushant Yadav</h2>
+                        <p>I am a motivated BCA student focused on front-end development, skilled in HTML, CSS, JavaScript, and React. I have built projects like a Pet Adoption Website, BMI Calculator, and Quiz Application, which strengthened my design and problem-solving skills. I’m continuously learning backend and database concepts to grow into a full-stack developer in the future.</p>
+                    </div>
 
-            <section className="interests">
-                <h3>Interests</h3>
-                <p>
-                    I'm interested in modern web technologies, open-source development, and continuous learning.<br />
-                    When I'm not coding, you can find me exploring new ideas and technologies.
-                </p>
-            </section>
+                    <div className="skills">
+                        <h3>Skills</h3>
 
-            <section className="contact">
-                <h3>Get In Touch</h3>
-                <p>Feel free to reach out to me for collaborations or just a friendly hello!</p>
-            </section>
-        </div>
+                        <div className="skill">
+                            <div className="skill-row">
+                                <div className="skill-label">HTML</div>
+                                <div className="skill-value">90%</div>
+                            </div>
+                            <div className="bar"><div className="fill" style={{ width: '90%' }}></div></div>
+                        </div>
+
+                        <div className="skill">
+                            <div className="skill-row">
+                                <div className="skill-label">CSS</div>
+                                <div className="skill-value">85%</div>
+                            </div>
+                            <div className="bar"><div className="fill" style={{ width: '85%' }}></div></div>
+                        </div>
+
+                        <div className="skill">
+                            <div className="skill-row">
+                                <div className="skill-label">JavaScript</div>
+                                <div className="skill-value">78%</div>
+                            </div>
+                            <div className="bar"><div className="fill" style={{ width: '78%' }}></div></div>
+                        </div>
+
+                        <div className="skill">
+                            <div className="skill-row">
+                                <div className="skill-label">React</div>
+                                <div className="skill-value">72%</div>
+                            </div>
+                            <div className="bar"><div className="fill" style={{ width: '72%' }}></div></div>
+                        </div>
+
+                        <div className="skill">
+                            <div className="skill-row">
+                                <div className="skill-label">Git / GitHub</div>
+                                <div className="skill-value">65%</div>
+                            </div>
+                            <div className="bar"><div className="fill" style={{ width: '65%' }}></div></div>
+                        </div>
+
+                    </div>
+
+                    <div className="contact">
+                        <a className="contact-button" href="mailto:your-email@example.com">Contact me</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     );
 }
+
 export default AboutMe;

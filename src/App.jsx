@@ -5,6 +5,8 @@ import './App.css'
 import MainContent from './MainContent'
 import Footer from './footer'
 import AboutMe from './AboutMe'
+import Education from './Education'
+
  function App() {
   return (
     <>
@@ -12,9 +14,9 @@ import AboutMe from './AboutMe'
       <span className="logo">SRK</span>
       <nav >
         <a href="#home">Home</a>
-        <a href="#about">About</a>
+        <a href="#AboutMe">About</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#Contact">Contact</a>
       </nav>
     </header>
 <div id="home">
@@ -24,7 +26,11 @@ import AboutMe from './AboutMe'
 <div id="AboutMe">
 <AboutMe />
 </div>
-<div id="Contact">
+<div id="education">
+  <Education />
+</div>
+
+<div id="footer">
 <Footer />
 </div>
 

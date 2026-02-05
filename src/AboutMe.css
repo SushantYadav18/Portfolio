@@ -1,16 +1,69 @@
-.about-me-container{
-    
-    justify-content: center;
-    margin:0;
-    padding:50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#e8e6e6;
-    border-radius:8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   
+
+
+.about-section{
+	min-height:100vh;
+	display:flex;
+	align-items:center;
+	background:#f7f9fb;
+	color:#222;
+  height:100%;
 }
-.h1{
-    font-size:36px;
-    margin-left:100px;
-    text-align:center;
+
+.about-container{
+	width:100%;
+	max-width:1100px;
+	margin:0 auto;
+	padding:40px 18px;
+	display:flex;
+	gap:32px;
+	align-items:center;
+}
+
+.left{
+	flex:0 0 360px;
+	display:flex;
+	align-items:center;
+	justify-content:center
+	
+}
+.photo{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	object-fit:cover;
+	border:6px solid #fff;
+	box-shadow:0 8px 30px rgba(0,0,0,0.08)
+}
+
+.right{flex:1}
+.right h1{font-size:34px;margin:0 0 12px}
+.intro h2{font-size:18px;margin:0 0 8px}
+.intro p{color:#444;margin:0 0 12px}
+
+.skills h3{margin:0 0 14px}
+.skill{margin-bottom:20px}
+.skill-row
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:8px
+
+}
+.skill-label{font-weight:600}
+.skill-value{color:#666}
+
+.bar{background:#e6eef8;height:28px;border-radius:16px;overflow:hidden}
+.fill{background:#0077ff;height:100%;width:0%;border-radius:16px}
+
+.contact-button{display:inline-block;background:#0077ff;color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;margin-top:12px}
+
+.icon{display:flex;gap:14px;margin-top:14px}
+.icon img{width:40px;height:40px}
+
+@media (max-width:900px){
+	.about-container{flex-direction:column;padding:28px}
+	.left{margin-bottom:18px}
+	.photo{width:200px;height:200px}
+	.right h1{text-align:center}
 }

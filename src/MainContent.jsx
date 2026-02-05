@@ -6,12 +6,12 @@ export default function MainContent(){
        
      <div className="main-content">
         <div className="profile-image">
-        <img src="/profile.jpg" alt="Profile" width="500" height="500"/>
-</div>
+        <img src="/profile.jpg" alt="Sushant Yadav profile" />
+      </div>
         <div className="intro-text">
-          <h1>Sushant Yadav</h1>
-          <p>Frontend Developer | ReactJS | JavaScript | HTML | CSS | TailwindCSS | Vite | GitHub</p>
-          <button className="contact-button">Contact Me</button>
+          <h1>I'm Sushant Yadav</h1>
+          <p>Front-End Developer | Building clean, scalable UI with React — learning full-stack</p>
+          <a className="contact-button" href="#Contact">Contact Me</a>
         </div>
     
     
